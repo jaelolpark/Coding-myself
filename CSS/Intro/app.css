@@ -1,0 +1,26 @@
+h1 {
+	color: #FF0D00;
+/*	border-color: black;
+	border-width: 5px;
+	border-style: solid;*/
+	border: 5px solid white;
+}
+h4 {
+
+	color: orange;
+	background: rgb(255,100,80)
+}
+
+h2 {
+	color: rgba(11, 99, 150, .6);
+}
+
+li {
+	color: rgb(240,100,100);
+}
+
+body {
+	background: url(https://previews.123rf.com/images/tunedin123/tunedin1231509/tunedin123150900099/44644003-wooden-background-olive-wood-wood-grain.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
