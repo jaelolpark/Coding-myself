@@ -1,0 +1,48 @@
+
+
+#special {
+	background: yellow;
+}
+
+
+.completed {
+	text-decoration: line-through;
+}
+
+
+li {
+	border: 5px solid pink;
+	
+}
+
+* {
+	/*전체 적용*/
+	border: 1px solid lightgrey;
+}
+
+
+li a {
+	/*li 안에 있는 앵커태그에 적용*/
+	color: green;
+	font-size: 32px;
+}
+
+
+h4 + ul {
+	/*h4 다음에 있는 ul에 적용*/
+	border: 2px solid red;
+}
+
+a[href="http://www.google.com"] {
+	/*specific한 앵커태그만 됨*/
+	background: orange;
+}
+
+ul:nth-of-type(2) {
+	/* n번째에만 적용 (여러가지 같은 태그가 있는 경우)*/
+	background: skyblue;
+}
+/*
+li:nth-of-type(2) {
+	background: skyblue;
+}*/
